@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Orbitron',sans-serif;background:#0d1117;color:white;}
+.hero{height:50vh;background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.8)),url('https://images.unsplash.com/photo-1542751371-adc38448a05e');background-size:cover;background-position:center;display:flex;justify-content:center;align-items:center;text-align:center;}
+.overlay h1{font-size:3rem;color:#00e5ff;}
+.games-container{max-width:1200px;margin:auto;padding:50px 20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:25px;}
+.game-card{background:#161b22;border:1px solid #30363d;border-radius:15px;padding:25px;}
+.game-card:hover{transform:translateY(-10px);box-shadow:0 0 20px rgba(0,229,255,.5);}
+footer{text-align:center;padding:30px;}
